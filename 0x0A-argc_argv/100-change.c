@@ -33,8 +33,11 @@ int main(int argc, char *argv[])
 	for (b = 0; b < 5 && num >= 0; b++)
 	{
 		while (num >= coins[b])
+		{
 			result++;
 		num -= coins[b];
+		}
+
 	}
 
 	printf("%d\n", result);
