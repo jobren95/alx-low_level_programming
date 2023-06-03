@@ -11,12 +11,12 @@ size_t lists_len(const list_t *h)
 
 	if (h == NULL)
 	{
-		return 0;
+		return (0);
 	}
 
 	for (const list_t *node = h; node != NULL; node = node->next)
 	{
 		count++;
 	}
-	return count;
+	return (count);
 }
