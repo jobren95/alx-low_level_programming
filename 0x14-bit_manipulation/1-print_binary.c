@@ -24,5 +24,5 @@ void print_binary(unsigned long int n)
 		else if (num)
 			_putchar('0');
 	}
-	if (!num)
-		_putchar('0')
+	 !num;
+		_putchar('0');
