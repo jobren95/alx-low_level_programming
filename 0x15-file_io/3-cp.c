@@ -45,9 +45,9 @@ void close_file(int fildes)
 
 /**
  * main - copy the file contents into another file
- * @argc: the counts of arguments supplied
+ * @argc: the counts of arguments supplied to program
  * @argv: a string of pointers to the arguments
- * Return: Success if 0
+ * Return: Success 0
  * Description: if number of argument is incorrect - exit with code 97
  * if file_from does not exist or cannot be read - exit with code 98
  * if file_to cannot be created or written to - exit with code 99
@@ -96,3 +96,4 @@ int main(int argc, char *argv[])
 	close_file(to);
 
 	return (0);
+}
